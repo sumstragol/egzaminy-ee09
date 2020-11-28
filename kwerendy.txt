@@ -1,0 +1,8 @@
+//zapytanie 1
+insert into zawody_wedkarskie values(NULL, 2,4,'2018-09-28', 'Tomasz Kowal');
+//zapytanie 2
+SELECT data_zawodow FROM `zawody_wedkarskie` WHERE sedzia like 'Jan Kowalewski';
+//zapytanie 3
+select imie, nazwisko from karty_wedkarskie join zawody_wedkarskie on karty_wedkarskie.id=zawody_wedkarskie.Karty_wedkarskie_id where zawody_wedkarskie.id=3
+//zapytanie 4
+update karty_wedkarskie set punkty=10 where id=2
