@@ -1,0 +1,8 @@
+//zapytanie 1
+SELECT marka, model FROM `samochody` WHERE kolor like 'czerwony'
+//zapytanie 2
+update samochody set stan='dobry' where rocznik=2003;
+//zapytanie 3
+create user "andrzej"@"localhost" identified by "andrzej1@";
+//zapytanie 4
+grant select, update on samochody to "andrzej"@"localhost";
